@@ -6,13 +6,13 @@ A base image based on ubuntu:12.04. Supervisor has been pre-installed in this im
 
 ##### From Docker Public Repository
 
-  > docker pull adesis/precise-base
+      > docker pull adesis/precise-base
 
 ##### Using Source
 
-  > git clone git@github.com:adesis/docker-images.git
-  > cd docker-images/precise-base
-  > docker build -rm -t {{ user }}/{{ image-name }} .
+      > git clone git@github.com:adesis/docker-images.git
+      > cd docker-images/precise-base
+      > docker build -rm -t {{ user }}/{{ image-name }} .
 
 **{{ user }}** and **{{ image-name }}** are to be defined by you. Refer Docker.io documentation for how to build images using Dockerfile.  
 

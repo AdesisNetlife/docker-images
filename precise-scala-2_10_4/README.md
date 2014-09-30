@@ -6,13 +6,13 @@ A base image based on ubuntu:12.04 with Scala 2.10.4 and SBT 0.13.6. Supervisor,
 
 ##### From Docker Public Repository
 
-  > docker pull adesis/precise-scala-2_10_4
+      > docker pull adesis/precise-scala-2_10_4
 
 ##### Using Source
 
-  > git clone git@github.com:adesis/docker-images.git
-  > cd docker-images/precise-scala-2_10_4
-  > docker build -rm -t {{ user }}/{{ image-name }} .
+      > git clone git@github.com:adesis/docker-images.git
+      > cd docker-images/precise-scala-2_10_4
+      > docker build -rm -t {{ user }}/{{ image-name }} .
 
 **{{ user }}** and **{{ image-name }}** are to be defined by you. Refer Docker.io documentation for how to build images using Dockerfile.
 

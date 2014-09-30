@@ -6,13 +6,13 @@ A base image based on ubuntu:12.04 with Oracle JDK 7 installed. Supervisor and O
 
 ##### From Docker Public Repository
 
-  > docker pull adesis/precise-oracle-jdk7
+      > docker pull adesis/precise-oracle-jdk7
 
 ##### Using Source
 
-  > git clone git@github.com:adesis/docker-images.git
-  > cd docker-images/precise-oracle-jdk7
-  > docker build -rm -t {{ user }}/{{ image-name }} .
+      > git clone git@github.com:adesis/docker-images.git
+      > cd docker-images/precise-oracle-jdk7
+      > docker build -rm -t {{ user }}/{{ image-name }} .
 
 **{{ user }}** and **{{ image-name }}** are to be defined by you. Refer Docker.io documentation for how to build images using Dockerfile.
 
