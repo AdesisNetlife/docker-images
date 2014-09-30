@@ -10,7 +10,7 @@ A base image based on ubuntu:12.04 with Scala 2.10.4 and SBT 0.13.6. Supervisor,
 
 ##### Using Source
 
-      > git clone git@github.com:adesis/docker-images.git
+      > git clone git@github.com:AdesisNetlife/docker-images.git
       > cd docker-images/precise-scala-2_10_4
       > docker build -rm -t {{ user }}/{{ image-name }} .
 

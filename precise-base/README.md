@@ -10,7 +10,7 @@ A base image based on ubuntu:12.04. Supervisor has been pre-installed in this im
 
 ##### Using Source
 
-      > git clone git@github.com:adesis/docker-images.git
+      > git clone git@github.com:AdesisNetlife/docker-images.git
       > cd docker-images/precise-base
       > docker build -rm -t {{ user }}/{{ image-name }} .
 

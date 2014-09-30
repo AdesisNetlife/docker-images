@@ -10,7 +10,7 @@ A base image based on ubuntu:12.04 with Oracle JDK 7 installed. Supervisor and O
 
 ##### Using Source
 
-      > git clone git@github.com:adesis/docker-images.git
+      > git clone git@github.com:AdesisNetlife/docker-images.git
       > cd docker-images/precise-oracle-jdk7
       > docker build -rm -t {{ user }}/{{ image-name }} .
 
