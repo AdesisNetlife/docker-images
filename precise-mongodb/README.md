@@ -1,6 +1,6 @@
 ### Introduction
 
-A base image based on ubuntu:12.04 with MongoDB installed. Supervisor and OpenSSH server has been pre-installed in this image.
+A base image based on ubuntu:12.04 with MongoDB single node installed. Supervisor and OpenSSH server has been pre-installed in this image.
 
 ### Usage
 
