@@ -14,11 +14,3 @@ mkdir -p /var/lib/hadoop-hdfs/cache/data/dfs/dn
 # assign permissions
 chown hdfs:hdfs /var/lib/hadoop-hdfs/cache/data/dfs/nn
 chown hdfs:hdfs /var/lib/hadoop-hdfs/cache/data/dfs/dn
-
-# init services
-/etc/init.d/hadoop-hdfs-datanode start
-/etc/init.d/hadoop-hdfs-namenode start
-/etc/init.d/hadoop-hdfs-secondarynamenode start
-
-# format hdfs
-su hdfs -c "hdfs namenode -format -force"
