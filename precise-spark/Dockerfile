@@ -6,6 +6,8 @@ RUN sh /setup.sh
 
 ENV SPARK_HOME /usr/local/spark
 
+ADD config/spark/spark-env.sh /usr/local/spark/conf/spark-env.sh
+
 ADD config/supervisor/conf.d/spark.conf /etc/supervisor/conf.d/spark.conf
 
 EXPOSE 8888 8080 8081 7077
